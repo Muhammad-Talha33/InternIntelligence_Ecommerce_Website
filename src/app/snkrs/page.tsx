@@ -13,8 +13,8 @@ export default function snkrs() {
           </a>
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Just In</h3>
-            <h2 className="text-black title-font text-lg font-medium">Nike Air Force 1 Mid '07</h2>
-            <p className="mt-1">Men's Shoes</p>
+            <h2 className="text-black title-font text-lg font-medium">Nike Air Force 1 Mid &apos;07</h2>
+            <p className="mt-1">Men&apos;s Shoes</p>
             <p className="mt-1">1 Colour</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 10 795.00</p>
           </div>
@@ -27,7 +27,7 @@ export default function snkrs() {
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Just In</h3>
             <h2 className="text-black title-font text-lg font-medium">Nike Court Vision Low Next Nature</h2>
-            <p className="mt-1">Men's Shoes</p>
+            <p className="mt-1">Men&apos;s Shoes</p>
             <p className="mt-1">1 Colour</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 4 995.00</p>
           </div>
@@ -40,7 +40,7 @@ export default function snkrs() {
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Just In</h3>
             <h2 className="text-black title-font text-lg font-medium">Nike Air Force 1 PLT.AF.ORM</h2>
-            <p className="mt-1">Women's Shoes</p>
+            <p className="mt-1">Women&apos;s Shoes</p>
             <p className="mt-1">1 Colour</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 8 695.00</p>
           </div>
@@ -53,7 +53,7 @@ export default function snkrs() {
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Just In</h3>
             <h2 className="text-black title-font text-lg font-medium">Nike Air Force 1 React</h2>
-            <p className="mt-1">Men's Shoes</p>
+            <p className="mt-1">Men&apos;s Shoes</p>
             <p className="mt-1">1 Colour</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 13 295.00</p>
           </div>
@@ -66,7 +66,7 @@ export default function snkrs() {
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Promo Exclusion</h3>
             <h2 className="text-black title-font text-lg font-medium">Air Jordan 1 Elevate Low</h2>
-            <p className="mt-1">Women's Shoes</p>
+            <p className="mt-1">Women&apos;s Shoes</p>
             <p className="mt-1">1 Colour</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 11 895.00</p>
           </div>
@@ -80,7 +80,7 @@ export default function snkrs() {
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Promo Exclusion</h3>
             <h2 className="text-black title-font text-lg font-medium">Nike Dunk Low Retro SE</h2>
-            <p className="mt-1">Men's Shoes</p>
+            <p className="mt-1">Men&apos;s Shoes</p>
             <p className="mt-1">1 Colour</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 9 695.00</p>
           </div>
@@ -93,7 +93,7 @@ export default function snkrs() {
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Just In</h3>
             <h2 className="text-black title-font text-lg font-medium">Nike Court Vision Low</h2>
-            <p className="mt-1">Men's Shoes</p>
+            <p className="mt-1">Men&apos;s Shoes</p>
             <p className="mt-1">1 Colour</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 5 695.00</p>
           </div>
@@ -107,7 +107,7 @@ export default function snkrs() {
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Just In</h3>
             <h2 className="text-black title-font text-lg font-medium">Nike Air Force 1 LV8 3</h2>
-            <p className="mt-1">Older Kids' Shoes</p>
+            <p className="mt-1">Older Kids&apos; Shoes</p>
             <p className="mt-1">1 Colour</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 7 495.00</p>
           </div>
@@ -120,7 +120,7 @@ export default function snkrs() {
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Just In</h3>
             <h2 className="text-black title-font text-lg font-medium">Nike Blazer Low Platform</h2>
-            <p className="mt-1">Women's Shoes</p>
+            <p className="mt-1">Women&apos;s Shoes</p>
             <p className="mt-1">1 Colour</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 8 195.00</p>
           </div>
@@ -132,8 +132,8 @@ export default function snkrs() {
           </a>
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Just In</h3>
-            <h2 className="text-black title-font text-lg font-medium">Nike Air Force 1 '07</h2>
-            <p className="mt-1">Women's Shoe</p>
+            <h2 className="text-black title-font text-lg font-medium">Nike Air Force 1 &apos;07</h2>
+            <p className="mt-1">Women&apos;s Shoe</p>
             <p className="mt-1">2 Colours</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 8 195.00</p>
           </div>
@@ -146,7 +146,7 @@ export default function snkrs() {
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Just In</h3>
             <h2 className="text-black title-font text-lg font-medium">Nike Dunk Low Retro</h2>
-            <p className="mt-1">Men's Shoes</p>
+            <p className="mt-1">Men&apos;s Shoes</p>
             <p className="mt-1">1 Colour</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 8 695.00</p>
           </div>
@@ -159,7 +159,7 @@ export default function snkrs() {
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Just In</h3>
             <h2 className="text-black title-font text-lg font-medium">Nike Air Max SC</h2>
-            <p className="mt-1">Women's Shoes</p>
+            <p className="mt-1">Women&apos;s Shoes</p>
             <p className="mt-1">2 Colours</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 5 995.00</p>
           </div>
@@ -172,7 +172,7 @@ export default function snkrs() {
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Just In</h3>
             <h2 className="text-black title-font text-lg font-medium">Nike Air Max SYSTM</h2>
-            <p className="mt-1">Older Kids' Shoes</p>
+            <p className="mt-1">Older Kids&apos; Shoes</p>
             <p className="mt-1">1 Colour</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 6 495.00</p>
           </div>
@@ -186,7 +186,7 @@ export default function snkrs() {
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Just In</h3>
             <h2 className="text-black title-font text-lg font-medium">Nike Court Legacy Lift</h2>
-            <p className="mt-1">Women's Shoes</p>
+            <p className="mt-1">Women&apos;s Shoes</p>
             <p className="mt-1">2 Colours</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 7 495.00</p>
           </div>
@@ -212,7 +212,7 @@ export default function snkrs() {
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Just In</h3>
             <h2 className="text-black title-font text-lg font-medium">Jordan Series ES</h2>
-            <p className="mt-1">Men's Shoes</p>
+            <p className="mt-1">Men&apos;s Shoes</p>
             <p className="mt-1">2 Colours</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 7 495.00</p>
           </div>
@@ -224,8 +224,8 @@ export default function snkrs() {
           </a>
           <div className="mt-4">
             <h3 className="text-[#9E3500] text-[15px] tracking-widest title-font mb-1">Just In</h3>
-            <h2 className="text-black title-font text-lg font-medium">Nike Blazer Low '77 Jumbo</h2>
-            <p className="mt-1">Women's Shoes</p>
+            <h2 className="text-black title-font text-lg font-medium">Nike Blazer Low &apos;77 Jumbo</h2>
+            <p className="mt-1">Women&apos;s Shoes</p>
             <p className="mt-1">1 Colour</p>
             <p className="mt-1 text-[#111111] text-[15px] font-medium">MRP : ₹ 8 595.00</p>
           </div>

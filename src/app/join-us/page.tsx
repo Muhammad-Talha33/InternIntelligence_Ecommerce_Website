@@ -67,7 +67,7 @@ export default function page() {
             your Member benefits
           </p>
 
-          <p className="text-[#8D8D8D] my-2 text-center">By creating an account, you agree to Nike's <a href="" className="underline text-[#8D8D8D]"><span>Privacy</span></a> Policy and Terms of Use.</p>
+          <p className="text-[#8D8D8D] my-2 text-center">By creating an account, you agree to Nike&apos;s <a href="" className="underline text-[#8D8D8D]"><span>Privacy</span></a> Policy and Terms of Use.</p>
 
           <div className="mt-6 ">
             <button className="w-full px-6 py-3 text-[15PX] font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-black rounded-lg hover:bg-gray-800 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">

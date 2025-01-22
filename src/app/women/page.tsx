@@ -21,7 +21,7 @@ export default function Products() {
               <h2 className="text-black title-font text-lg font-medium">
                 Nike Air Force 1 PLT.AF.ORM
               </h2>
-              <p className="mt-1">Women's Shoes</p>
+              <p className="mt-1">Women&apos;s Shoes</p>
               <p className="mt-1">1 Colour</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">
                 MRP : ₹ 8 695.00
@@ -44,7 +44,7 @@ export default function Products() {
               <h2 className="text-black title-font text-lg font-medium">
                 Air Jordan 1 Elevate Low
               </h2>
-              <p className="mt-1">Women's Shoes</p>
+              <p className="mt-1">Women&apos;s Shoes</p>
               <p className="mt-1">1 Colour</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">
                 MRP : ₹ 11 895.00
@@ -67,7 +67,7 @@ export default function Products() {
               <h2 className="text-black title-font text-lg font-medium">
                 Nike Standard Issue
               </h2>
-              <p className="mt-1">Women's Basketball Jersey</p>
+              <p className="mt-1">Women&apos;s Basketball Jersey</p>
               <p className="mt-1">1 Colour</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">
                 MRP : ₹ 2 895.00
@@ -91,7 +91,7 @@ export default function Products() {
                 Nike One Leak Protection: Period
               </h2>
               <p className="mt-1">
-                Women's Mid-Rise 18cm (approx.) Biker Shorts
+                Women&apos;s Mid-Rise 18cm (approx.) Biker Shorts
               </p>
               <p className="mt-1">2 Colours</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">
@@ -117,7 +117,7 @@ export default function Products() {
               <h2 className="text-black title-font text-lg font-medium">
                 Nike Blazer Low Platform
               </h2>
-              <p className="mt-1">Women's Shoes</p>
+              <p className="mt-1">Women&apos;s Shoes</p>
               <p className="mt-1">1 Colour</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">
                 MRP : ₹ 8 195.00
@@ -137,9 +137,9 @@ export default function Products() {
                 Just In
               </h3>
               <h2 className="text-black title-font text-lg font-medium">
-                Nike Air Force 1 '07
+                Nike Air Force 1 &apos;07
               </h2>
-              <p className="mt-1">Women's Shoe</p>
+              <p className="mt-1">Women&apos;s Shoe</p>
               <p className="mt-1">2 Colours</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">
                 MRP : ₹ 8 195.00
@@ -164,7 +164,7 @@ export default function Products() {
               <h2 className="text-black title-font text-lg font-medium">
                 Nike Air Max SC
               </h2>
-              <p className="mt-1">Women's Shoes</p>
+              <p className="mt-1">Women&apos;s Shoes</p>
               <p className="mt-1">2 Colours</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">
                 MRP : ₹ 5 995.00
@@ -191,7 +191,7 @@ export default function Products() {
                 Nike Alate All U
               </h2>
               <p className="mt-1">
-                Women's Light-Support Lightly Lined U-Neck Printed Sports Bra
+                Women&apos;s Light-Support Lightly Lined U-Neck Printed Sports Bra
               </p>
               <p className="mt-1">1 Colour</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">
@@ -214,7 +214,7 @@ export default function Products() {
               <h2 className="text-black title-font text-lg font-medium">
                 Nike Court Legacy Lift
               </h2>
-              <p className="mt-1">Women's Shoes</p>
+              <p className="mt-1">Women&apos;s Shoes</p>
               <p className="mt-1">2 Colours</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">
                 MRP : ₹ 7 495.00
@@ -237,7 +237,7 @@ export default function Products() {
                 Nike Swoosh
               </h2>
               <p className="mt-1">
-                Women's Medium-support Padded Sports Bra Tank
+                Women&apos;s Medium-support Padded Sports Bra Tank
               </p>
               <p className="mt-1">2 Colours</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">
@@ -263,9 +263,9 @@ export default function Products() {
                 Just In
               </h3>
               <h2 className="text-black title-font text-lg font-medium">
-                Nike Blazer Low '77 Jumbo
+                Nike Blazer Low &apos;77 Jumbo
               </h2>
-              <p className="mt-1">Women's Shoes</p>
+              <p className="mt-1">Women&apos;s Shoes</p>
               <p className="mt-1">1 Colour</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">
                 MRP : ₹ 8 595.00

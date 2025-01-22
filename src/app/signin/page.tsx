@@ -31,7 +31,7 @@ export default function page() {
       </label>
      
     </div>
-    <p className='text-center text-[#8D8D8D] text-[15px] mt-5'>By logging in, you agree to Nike's<span><a href="" className='underline hover:text-black'> Privacy Policy.</a></span></p>
+    <p className='text-center text-[#8D8D8D] text-[15px] mt-5'>By logging in, you agree to Nike&apos;s<span><a href="" className='underline hover:text-black'> Privacy Policy.</a></span></p>
     <p className='text-center text-[#8D8D8D] text-[15px]'>and<span><a href="" className='underline hover:text-black'> Terms of Use.</a></span></p>
     <button className="mt-4 w-full rounded-md bg-[#000000] py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
       SIGN IN

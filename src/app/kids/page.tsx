@@ -21,7 +21,7 @@ export default function kids() {
               <h2 className="text-black title-font text-lg font-medium">
                 Nike Air Force 1 LV8 3
               </h2>
-              <p className="mt-1">Older Kids' Shoes</p>
+              <p className="mt-1">Older Kids&apos; Shoes</p>
               <p className="mt-1">1 Colour</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">
                 MRP : ₹ 7 495.00
@@ -44,7 +44,7 @@ export default function kids() {
               <h2 className="text-black title-font text-lg font-medium">
                 Nike Air Max SYSTM
               </h2>
-              <p className="mt-1">Older Kids' Shoes</p>
+              <p className="mt-1">Older Kids&apos; Shoes</p>
               <p className="mt-1">1 Colour</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">
                 MRP : ₹ 6 495.00
@@ -70,7 +70,7 @@ export default function kids() {
               <h2 className="text-black title-font text-lg font-medium">
                 Nike Outdoor Play
               </h2>
-              <p className="mt-1">Older Kids' Oversized Woven Jacket</p>
+              <p className="mt-1">Older Kids&apos; Oversized Woven Jacket</p>
               <p className="mt-1">1 Colour</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">
                 MRP : ₹ 3 895.00
@@ -93,7 +93,7 @@ export default function kids() {
                 Nike Sportswear Trend
               </h2>
               <p className="mt-1">
-                Older Kids' (Girls') High-waisted Woven Shorts
+                Older Kids&apos; (Girls&apos;) High-waisted Woven Shorts
               </p>
               <p className="mt-1">2 Colours</p>
               <p className="mt-1 text-[#111111] text-[15px] font-medium">

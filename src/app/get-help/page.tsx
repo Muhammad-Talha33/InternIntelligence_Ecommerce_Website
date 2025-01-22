@@ -1,7 +1,7 @@
 import React from "react";
-import { BiSolidLike, BiSolidDislike } from "react-icons/bi";
+import { BiSolidLike } from "react-icons/bi";
 import { AiFillDislike } from "react-icons/ai";
-import { FaSearch } from "react-icons/fa";
+
 
 export default function page() {
   return (
@@ -40,7 +40,7 @@ export default function page() {
                 Electron, Maestro
               </p>
               <p className="text-[#111111] mx-6 text-[15px]">
-                If you enter your PAN information at checkout, you'll be able to
+                If you enter your PAN information at checkout, you&apos;ll be able to
                 pay for your order with PayTM or a local credit or debit card.
               </p>
               <p className="text-[#111111] mx-6 text-base">Apple Pay</p>
@@ -53,7 +53,7 @@ export default function page() {
                   <span>Nike Members</span>
                 </a>{" "}
                 can store multiple debit or credit cards in their profile for
-                faster checkout. If you're not already a Member,{" "}
+                faster checkout. If you&apos;re not already a Member,{" "}
                 <a href="/join-us" className="underline font-semibold">
                   <span>join</span> <br /> us{" "}
                 </a>{" "}
@@ -105,7 +105,7 @@ export default function page() {
               </div>
               <div className="flex items-center py-2">
                 <span className="text-gray-500">
-                  No, payment for Nike orders can't be split between multiple
+                  No, payment for Nike orders can&apos;t be split between multiple
                   payment methods.
                 </span>
               </div>
@@ -132,15 +132,15 @@ export default function page() {
             <div>
               <div className="flex items-center h-16">
                 <span className="text-[16px] text-[#111111] font-bold">
-                  Why don't I see Apple Pay as an option?
+                  Why don&apos;t I see Apple Pay as an option?
                 </span>
               </div>
               <div className="flex items-center py-2">
                 <span className="text-gray-500">
                   To see Apple Pay as an option in the Nike App or on Nike.com,
-                  you'll need to use a compatible Apple device running the
+                  you&apos;ll need to use a compatible Apple device running the
                   latest OS, be signed in to your iCloud account and have a
-                  supported card in your Wallet. Additionally, you'll need to
+                  supported card in your Wallet. Additionally, you&apos;ll need to
                   use Safari to use Apple Pay on Nike.com.
                 </span>
               </div>
@@ -170,7 +170,7 @@ export default function page() {
 
             <a href="" className="my-2">
               <span className="text-[#111111] text-[16px] hover:underline">
-                - WHAT ARE NIKE'S DELIVERY OPTIONS?
+                - WHAT ARE NIKE&apos;S DELIVERY OPTIONS?
               </span>
             </a>
             <a href="" className="my-2">

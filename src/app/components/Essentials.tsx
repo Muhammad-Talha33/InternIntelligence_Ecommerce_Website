@@ -3,7 +3,7 @@ import React from "react";
 export default function Essentials() {
   return (
     <div className="text-black w-full my-20">
-      <h3 className="font-semibold mx-28 text-[23px]">Don't Miss</h3>
+      <h3 className="font-semibold mx-28 text-[23px]">Don&apos;t Miss</h3>
 
       <div className=" flex justify-center items-center">
         <img src="/images/dont-miss.png" alt="" className="mt-5" />

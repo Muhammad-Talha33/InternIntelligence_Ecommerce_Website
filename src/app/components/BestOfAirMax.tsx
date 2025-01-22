@@ -25,7 +25,7 @@ export default function BestOfAirMax() {
           </p>
         </div>
         <p className="text-[#757575] leading-normal font-normal">
-          Women's Shoes
+          Women&apos;s Shoes
         </p>
         
       </div>
@@ -50,7 +50,7 @@ export default function BestOfAirMax() {
           </p>
         </div>
         <p className="text-[#757575] leading-normal font-normal">
-          Men's Shoes
+          Men&apos;s Shoes
         </p>
         
       </div>
@@ -75,7 +75,7 @@ export default function BestOfAirMax() {
           </p>
         </div>
         <p className="text-[#757575] leading-normal font-normal">
-          Women's Shoes
+          Women&apos;s Shoes
         </p>
         
       </div>

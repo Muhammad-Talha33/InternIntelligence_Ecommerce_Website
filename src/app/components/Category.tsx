@@ -70,22 +70,22 @@ export default function Category() {
       </div>
 
       <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
-       <h2 className="font-semibold title-font tracking-widest text-black mb-4 text-sm text-center sm:text-center hover:scale-125 transition-transform duration-500 ease-in-out cursor-pointer">Kids'</h2>
+       <h2 className="font-semibold title-font tracking-widest text-black mb-4 text-sm text-center sm:text-center hover:scale-125 transition-transform duration-500 ease-in-out cursor-pointer">Kids&apos;</h2>
         <nav className="flex flex-col sm:items-center sm:text-left text-[#757575] text-center items-left -mb-1 space-y-4 ">
           <a className='hover:text-black cursor-pointer hover:scale-125 transition-transform duration-500 ease-in-out'>
           Infant & Toddler Shoes
           </a>
 
           <a className='hover:text-black cursor-pointer hover:scale-125 transition-transform duration-500 ease-in-out'>
-          Kids' Shoes
+          Kids&apos; Shoes
           </a>
 
           <a className='hover:text-black cursor-pointer hover:scale-125 transition-transform duration-500 ease-in-out'>
-          Kids' Jordan Shoes
+          Kids&apos; Jordan Shoes
           </a>
 
           <a className='hover:text-black cursor-pointer hover:scale-125 transition-transform duration-500 ease-in-out'>
-          Kids' Basketball Shoes
+          Kids&apos; Basketball Shoes
           </a>
         </nav>
       </div>

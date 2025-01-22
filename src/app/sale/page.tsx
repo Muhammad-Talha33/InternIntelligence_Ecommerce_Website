@@ -17,7 +17,7 @@ export default function page() {
             </h1>
            
             <p className="leading-relaxed text-[20px] text-[#111111] line-height">
-            Turn style on its head with this crafted take on the <br /> Air Jordan 1 Mid. Its "inside out"-inspired <br /> construction, including unique layering and <br /> exposed foam accents, ups the ante on this <br /> timeless Jordan Brand silhouette. Details like the <br /> deco stitching on the Swoosh add coveted <br /> appeal, while the unexpected shading, rich <br /> mixture of materials and aged midsole aesthetic <br /> give this release an artisan finish.
+            Turn style on its head with this crafted take on the <br /> Air Jordan 1 Mid. Its &quot;inside out&quot;-inspired <br /> construction, including unique layering and <br /> exposed foam accents, ups the ante on this <br /> timeless Jordan Brand silhouette. Details like the <br /> deco stitching on the Swoosh add coveted <br /> appeal, while the unexpected shading, rich <br /> mixture of materials and aged midsole aesthetic <br /> give this release an artisan finish.
             </p>
             
             <div className="my-5">

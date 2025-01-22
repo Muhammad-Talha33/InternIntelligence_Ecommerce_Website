@@ -21,7 +21,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
   const { slug } = params;
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState(true);
-   const [cart, setCart] = useState<Product[]>([]);
+
   const router = useRouter();
 
   useEffect(() => {
@@ -44,7 +44,6 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
     getProduct();
   }, [slug, router]);
   const addToCart = (products: Product) => {
-    setCart((prevCart) => [...prevCart, products]);
       alert(`${products.productName} added to cart`);
   };
   if (loading) {

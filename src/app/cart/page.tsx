@@ -18,7 +18,7 @@ export default function page() {
         <img className="m-2 w-[150px] rounded-md border object-cover object-center" src="/images/tshirt.png" alt="" />
         <div className="flex w-full flex-col px-4 py-4">
           <span className="font-semibold text-[#111111]">Nike Dri-FIT ADV TechKnit Ultra</span>
-          <span className="float-right text-[#757575]">Men's Short-Sleeve Running Top</span>
+          <span className="float-right text-[#757575]">Men&apos;s Short-Sleeve Running Top</span>
           <span className="float-right text-[#757575]">Ashen Slate/Cobalt Bliss</span>
           <span className="float-right text-[#757575]">Size: L</span>
           <span className="float-right text-[#757575]">Quantity: 1</span>
@@ -28,8 +28,8 @@ export default function page() {
       <div className="flex flex-col rounded-lg bg-white sm:flex-row">
         <img className="m-2 w-[150px] rounded-md border object-cover object-center" src="/images/Rectangle4.png" alt="" />
         <div className="flex w-full flex-col px-4 py-4">
-          <span className="font-semibold text-[#111111]">Nike Air Force 1 Mid '07</span>
-          <span className="float-right text-[#757575]">Men's Shoes</span>
+          <span className="font-semibold text-[#111111]">Nike Air Force 1 Mid &apos;07</span>
+          <span className="float-right text-[#757575]">Men&apos;s Shoes</span>
           <span className="float-right text-[#757575]">Flat Pewter/Light Bone/Black/White</span>
           <span className="float-right text-[#757575]">Size: 8</span>
           <span className="float-right text-[#757575]">Quantity: 1</span>

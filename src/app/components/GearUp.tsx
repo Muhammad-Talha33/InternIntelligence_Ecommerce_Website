@@ -24,7 +24,7 @@ export default function GearUp() {
           </p>
         </div>
         <p className="text-[#757575] text-[16px] leading-normal font-normal">
-        Men's Short-Sleeve 
+        Men&apos;s Short-Sleeve 
         </p>
         <p className='text-[#757575] text-[16px] leading-normal font-normal'>Running Top</p>
       </div>
@@ -50,7 +50,7 @@ export default function GearUp() {
           </p>
         </div>
         <p className="text-[#757575] text-[16px] leading-normal font-normal">
-        Men's 18cm (approx.) 2-
+        Men&apos;s 18cm (approx.) 2-
         </p>
         <p className='text-[#757575] text-[16px] leading-normal font-normal'>in-1 Versatile Shorts</p>
       </div>
@@ -74,7 +74,7 @@ export default function GearUp() {
           </p>
         </div>
         <p className="text-[#757575] text-[16px] leading-normal font-normal">
-        Women's Long-Sleeve 
+        Women&apos;s Long-Sleeve 
         </p>
         <p className="text-[#757575] text-[16px] leading-normal font-normal">
         Running Top
@@ -99,7 +99,7 @@ export default function GearUp() {
           </p>
         </div>
         <p className="text-[#757575] text-[16px] leading-normal font-normal">
-        Women's Mid-Rise 7/8 
+        Women&apos;s Mid-Rise 7/8 
         </p>
         <p className="text-[#757575] text-[16px] leading-normal font-normal">
         Running Leggings with Pockets
