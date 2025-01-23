@@ -84,7 +84,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               {product.description}
             </p>
             <div className="my-5">
-              <button onClick={() => addToCart(product)}  className="flex flex-row gap-3 text-white my-10 bg-[#111111] py-2 px-6 focus:outline-none hover:bg-[#414141]duration-700 b rounded">
+              <button onClick={() => addToCart(product)}  className="flex flex-row gap-3 text-white my-10 bg-[#111111] py-2 px-6 focus:outline-none hover:bg-indigo-600 duration-700 b rounded">
                 <HiMiniShoppingCart className="text-white text-2xl" />
                 Add To Cart
               </button>
