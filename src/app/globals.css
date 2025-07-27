@@ -10,7 +10,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff;
-    --foreground: #ededed;
+    --foreground: #000000;
   }
 }
 
@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+
+   .hero-section {
+          background-image: url('https://img.freepik.com/free-photo/elderly-woman-shopping-customer-day_23-2151638485.jpg?t=st=1753503972~exp=1753507572~hmac=bf083923ad4553fc46557a9e5db14b3350959c1320e454c572c50c07f3d84dce&w=2000');
+          background-size: cover;
+          background-position: center;
+      }
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+      }

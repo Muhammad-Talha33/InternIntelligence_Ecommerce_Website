@@ -1,181 +1,107 @@
+"use client";
+import { motion } from "framer-motion";
+import Link from "next/link";
 import React from "react";
-import { FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
-import { TfiYoutube } from "react-icons/tfi";
-import { IoLocationSharp } from "react-icons/io5";
+import { LiaOpencart } from "react-icons/lia";
+import {
+  RiFacebookLine,
+  RiInstagramLine,
+  RiLinkedinBoxFill,
+  RiMastercardFill,
+  RiPaypalFill,
+  RiVisaFill,
+} from "react-icons/ri";
 
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-[#111111]">
-      <div className="container px-6 py-8 mx-auto">
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          <div>
-            <div className="text-xs font-medium text-white uppercase">
-              <a
-                href="/"
-                className="cursor-pointer hover:text-blue-500"
-              >
-                <span>Find A Store</span>
-              </a>
-            </div>
-
-            <a
-              href="/join-us"
-              className="block mt-5 text-sm font-medium text-white duration-700 dark:text-white hover:text-gray-400 dark:hover:text-gray-200 hover:underline"
-            >
-              BECOME A MEMBER
-            </a>
-            <a
-              href="/join-us" 
-              className="block mt-3 text-sm font-medium text-white duration-700 dark:text-white hover:text-gray-400 dark:hover:text-gray-200 hover:underline"
-            >
-              SIGN UP FOR EMAIL
-            </a>
-            <a
-              href="/join-us"
-              className="block mt-3 text-sm font-medium text-white duration-700 dark:text-white hover:text-gray-400 dark:hover:text-gray-200 hover:underline"
-            >
-              Send Us Feedback
-            </a>
-            <a
-              href="/join-us"
-              className="block mt-3 text-sm font-medium text-white duration-700 dark:text-white hover:text-gray-400 dark:hover:text-gray-200 hover:underline"
-            >
-              STUDENT DICOUNTS
-            </a>
-          </div>
-
-          <div>
-          <div className="text-xs font-medium text-white uppercase">
-              <a
-                href="/get-help" target="_blank"
-                className="cursor-pointer hover:text-blue-500"
-              >
-                <span>Get Help</span>
-              </a>
-            </div>
-
-            <a
-              href="/get-help"
-              className="block mt-5 text-sm font-medium text-[#7E7E7E] duration-700 dark:text-[#7E7E7E] hover:text-gray-400 dark:hover:text-gray-200 hover:underline"
-            >
-              Order Status
-            </a>
-            <a
-              href="/get-help"
-              className="block mt-3 text-sm font-medium text-[#7E7E7E] duration-700 dark:text-[#7E7E7E] hover:text-gray-400 dark:hover:text-gray-200 hover:underline"
-            >
-              Delivery
-            </a>
-            <a
-              href="/get-help"
-              className="block mt-3 text-sm font-medium text-[#7E7E7E] duration-700 dark:text-[#7E7E7E] hover:text-gray-400 dark:hover:text-gray-200 hover:underline"
-            >
-              Returns
-            </a>
-            <a
-              href="/get-help"
-              className="block mt-3 text-sm font-medium text-[#7E7E7E] duration-700 dark:text-[#7E7E7E] hover:text-gray-400 dark:hover:text-gray-200 hover:underline"
-            >
-              Payment Options
-            </a>
-            <a
-              href="/get-help"
-              className="block mt-3 text-sm font-medium text-[#7E7E7E] duration-700 dark:text-[#7E7E7E] hover:text-gray-400 dark:hover:text-gray-200 hover:underline"
-            >
-              Contact Us On Nike.com Inquiries
-            </a>
-            <a
-              href="/get-help"
-              className="block mt-3 text-sm font-medium text-gray-500 duration-700 dark:text-[#7E7E7E] hover:text-gray-400 dark:hover:text-gray-200 hover:underline"
-            >
-              Contact Us On All Other Inquiries
-            </a>
-          </div>
-
-          <div>
-          <div className="text-xs font-medium text-white uppercase">
-              <a
-                href="/"
-                className="cursor-pointer hover:text-blue-500"
-              >
-                <span>About Nike</span>
-              </a>
-            </div>
-
-            <a
-              href="#"
-              className="block mt-5 text-sm font-medium text-[#7E7E7E] duration-700 dark:text-[#7E7E7E] hover:text-gray-400 dark:hover:text-gray-200 hover:underline"
-            >
-              News
-            </a>
-            <a
-              href="#"
-              className="block mt-3 text-sm font-medium text-[#7E7E7E] duration-700 dark:text-[#7E7E7E] hover:text-gray-400 dark:hover:text-gray-200 hover:underline"
-            >
-              Careers
-            </a>
-            <a
-              href="#"
-              className="block mt-3 text-sm font-medium text-[#7E7E7E] duration-700 dark:text-[#7E7E7E] hover:text-gray-400 dark:hover:text-gray-200 hover:underline"
-            >
-              Investors
-            </a>
-            <a
-              href="#"
-              className="block mt-3 text-sm font-medium text-[#7E7E7E] duration-700 dark:text-[#7E7E7E] hover:text-gray-400 dark:hover:text-gray-200 hover:underline"
-            >
-              Sustainability
-            </a>
-          </div>
-
-          <div className="flex mt-3 -mx-2 sm:mt-0">
-            <a
-              href="https://twitter.com/Nike"
-              className="mx-2 text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"
-              aria-label="twitter"
-            >
-              <FaTwitter className="w-5 h-5 " />
-            </a>
-
-            <a
-              href="https://www.facebook.com/nike/" target="_blank"
-              className="mx-2 text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"
-              aria-label="Facebook"
-            >
-              <FaFacebookF className="w-5 h-5" />
-            </a>
-
-            <a
-              href="https://www.youtube.com/user/nike" target="_blank"
-              className="mx-2 text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"
-              aria-label="Facebook"
-            >
-              <TfiYoutube className="w-5 h-5" />
-            </a>
-
-            <a
-              href="https://www.instagram.com/nike/" target="_blank"
-              className="mx-2 text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"
-              aria-label="Facebook"
-            >
-              <FaInstagram className="w-5 h-5" />
-            </a>
-          </div>
-          <div className="sm:flex sm:items-center sm:justify-evenly">
-            <IoLocationSharp className="text-white" />
-            <h3 className="my-10 ">India </h3>
-            <p className="text-[#7E7E7E] lg:mx-6">
-              © 2023 Nike, Inc. All Rights Reserved
+    <motion.footer className="bg-white border-t border-gray-100 pt-12 pb-6" initial={{ opacity: 0, y: -100 }} 
+          animate={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 1, ease: "easeOut" }}>
+      <div className="max-w-7xl mx-auto px-4">
+        {/* Top section */}
+        <div className="flex flex-col md:flex-row justify-between gap-8">
+          {/* Logo + description */}
+          <div className="md:w-1/3">
+            <Link href="/" className="font-['Pacifico'] text-2xl text-primary">
+              <span>
+                <LiaOpencart className="inline-flex mr-2 text-3xl mb-2 md:mb-0s" />
+              </span>
+              buyloom
+            </Link>
+            <p className="text-gray-600 max-w-md">
+              We offer premium quality clothing and accessories for men and
+              women. Our mission is to provide sustainable fashion that lasts.
             </p>
           </div>
-          <div className="sm:flex sm:justify-between sm:items-center gap-10 lg:ml-64">
-            <p className="text-[#7E7E7E] ">Guides</p>
-            <p className="text-[#7E7E7E] ">Terms of Sale</p>
-            <p className="text-[#7E7E7E] ">Terms of Use</p>
-            <p className="text-[#7E7E7E] ">Nike Privacy Policy</p>
+
+          {/* Quick Links */}
+          <div className="md:w-1/3">
+            <h3 className="text-sm font-semibold text-gray-800 mb-4">
+              Quick Links
+            </h3>
+            <ul className="space-y-2 text-gray-600">
+              <li>
+                <Link href="/" className="hover:text-primary transition-colors">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/shop"
+                  className="hover:text-primary transition-colors"
+                >
+                  Shop
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/about"
+                  className="hover:text-primary transition-colors"
+                >
+                  About
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Social Icons */}
+          <div className="flex gap-4 md:w-1/3 md:justify-end">
+            <Link
+              href="https://www.facebook.com/profile.php?id=100090125664405"
+              className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-gray-200 transition-colors"
+              target="_blank"
+            >
+              <RiFacebookLine />
+            </Link>
+            <Link
+              href="https://www.instagram.com/synthsensations"
+              className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-gray-200 transition-colors"
+              target="_blank"
+            >
+              <RiInstagramLine />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/muhammad-talha33"
+              className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-gray-200 transition-colors"
+              target="_blank"
+            >
+              <RiLinkedinBoxFill />
+            </Link>
+          </div>
+        </div>
+
+        {/* Bottom section */}
+        <div className="mt-10 pt-6 border-t border-gray-100 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-gray-500 text-sm text-center ">
+            &copy; 2025 buyloom. All rights reserved.
+          </p>
+          <div className="flex items-center space-x-4">
+            <RiVisaFill className="text-2xl text-gray-600" />
+            <RiMastercardFill className="text-2xl text-gray-600" />
+            <RiPaypalFill className="text-2xl text-gray-600" />
           </div>
         </div>
       </div>
-    </footer>
+    </motion.footer>
   );
 }

@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "NIKE-STORE",
+  title: "BuyLoom – A Better Way to Shop",
   description: "Created By Muhammad Talha Usman",
 };
 

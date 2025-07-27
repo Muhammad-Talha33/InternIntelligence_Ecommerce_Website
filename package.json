@@ -1,5 +1,5 @@
 {
-  "name": "ui-ux-hackathon-duplicate",
+  "name": "perfume-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,18 +10,21 @@
     "import-data": "node scripts/importSanityData.mjs"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.11.0",
     "@sanity/client": "^6.25.0",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.70.0",
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
+    "framer-motion": "^12.23.9",
     "next": "14.2.15",
     "next-sanity": "^9.8.38",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.4.0",
     "sanity": "^3.70.0",
-    "styled-components": "^6.1.14"
+    "styled-components": "^6.1.14",
+    "sweetalert2": "^11.15.10"
   },
   "devDependencies": {
     "@types/node": "^20",

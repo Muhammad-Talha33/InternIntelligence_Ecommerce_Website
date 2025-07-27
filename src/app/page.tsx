@@ -1,21 +1,23 @@
 import React from "react";
-
-import HelloNike from "./components/HelloNike";
-import BestOfAirMax from "./components/BestOfAirMax";
-import Featured from "./components/Featured";
-import GearUp from "./components/GearUp";
-import Essentials from "./components/Essentials";
-import Category from "./components/Category";
+import Hero from "./components/Hero"
+import CategoryGrid from "./components/CategoryGrid";
+import FeaturedProducts from "./components/FeaturedProducts";
+import SpecialOfferBanner from "./components/SpecialOfferBanner";
+import Testimonials from "./components/Testimonials";
+import FollowUs from "./components/FollowUs";
+import NewsLetter from "./components/NewsLetter";
 
 export default function page() {
   return (
     <div>
-      <HelloNike />
-      <BestOfAirMax />
-      <Featured />
-      <GearUp />
-      <Essentials />
-      <Category />
+      <Hero />
+      <CategoryGrid/>
+      <FeaturedProducts/>
+      <SpecialOfferBanner/>
+      <Testimonials/>
+      <FollowUs/>
+      <NewsLetter/>
+
     </div>
   );
 }

@@ -1,16 +1,22 @@
 import { client } from '../sanity/lib/client'; // Sanity client import karo
 
-export const fetchProductBySlug = async (slug: string) => {
-  const query = `*[_type == "product" && slug.current == $slug][0]{
-    productName,
-    "imageUrl": image.asset->url,
-    description,
-    price,
-    category,
-    status
-  }`;
-  const params = { slug };
 
-  const product = await client.fetch(query, params);
+export async function fetchProductById(id: string) {
+  const query = `
+    *[_type == "product" && _id == $id][0] {
+      _id,
+      name,
+      price,
+      description,
+      category,
+      status,
+      inventory,
+      colors,
+      sizes,
+      tags,
+      "image": image.asset->url
+    }
+  `;
+  const product = await client.fetch(query, { id });
   return product;
-};
+}
