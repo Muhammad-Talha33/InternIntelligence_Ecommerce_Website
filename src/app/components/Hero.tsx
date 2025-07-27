@@ -1,12 +1,9 @@
 "use client";
 import React from 'react';
-import { motion } from 'framer-motion'
 import Link from 'next/link';
 const Hero: React.FC = () => {
   return (
-    <motion.section className="hero-section relative" initial={{ opacity: 0, x: -100 }} 
-          animate={{ opacity: 1, x: 0 }} 
-          transition={{ duration: 1, ease: "easeOut" }}>
+    <section className="hero-section relative">
       <div className="container mx-auto px-4 py-24 md:py-32 w-full">
         <div className="max-w-lg">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -32,7 +29,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 
