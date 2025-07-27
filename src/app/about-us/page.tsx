@@ -1,12 +1,9 @@
 "use client";
-import { motion } from 'framer-motion';
 import React from 'react';
 
 export default function AboutPage() {
   return (
-    <motion.section className="md:py-24 py-16 relative bg-white" initial={{ opacity: 0, x: -100 }} 
-          animate={{ opacity: 1, x: 0 }} 
-          transition={{ duration: 1, ease: "easeOut" }}>
+    <section className="md:py-24 py-16 relative bg-white">
       <div className="max-w-7xl px-4 md:px-6 mx-auto">
         <div className="grid lg:grid-cols-2 gap-14 items-center">
            <div className="justify-center hidden md:flex ">
@@ -68,6 +65,6 @@ export default function AboutPage() {
           
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 }

@@ -1,5 +1,4 @@
 "use client";
-import { motion } from 'framer-motion'
 import Link from 'next/link';
 import React from 'react'
 
@@ -45,9 +44,7 @@ const images:FollowUsImage[] = [
 ] 
 
   return (
-    <motion.section className="py-16" initial={{ opacity: 0, y: -100 }} 
-          animate={{ opacity: 1, y: 0 }} 
-          transition={{ duration: 1, ease: "easeOut" }}>
+    <section className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-2">
           Follow Us on Instagram
@@ -62,7 +59,7 @@ const images:FollowUsImage[] = [
           ))}
         </div>
       </div>
-    </motion.section>
+    </section>
 
   )
 }

@@ -1,12 +1,9 @@
 "use client";
-import { motion } from 'framer-motion'
 import React from 'react'
 
 export default function NewsLetter() {
   return (
-    <motion.section className="py-16 bg-amber-400 text-black mb-4" initial={{ opacity: 0, x: -100 }} 
-          animate={{ opacity: 1, x: 0 }} 
-          transition={{ duration: 1, ease: "easeOut" }}>
+    <section className="py-16 bg-amber-400 text-black mb-4">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4 text-gray-900">Subscribe to Our Newsletter</h2>
@@ -33,7 +30,7 @@ export default function NewsLetter() {
           </p>
         </div>
       </div>
-    </motion.section>
+    </section>
 
   )
 }

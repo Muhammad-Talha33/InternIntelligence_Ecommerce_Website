@@ -1,13 +1,10 @@
 "use client";
-import { motion } from 'framer-motion'
 import Link from 'next/link';
 import React from 'react'
 
 export default function SpecialOfferBanner() {
   return (
-    <motion.section className="py-12 px-4 sm:px-6 md:px-8 lg:px-12 bg-amber-400 text-white" initial={{ opacity: 0, y: -100 }} 
-          animate={{ opacity: 1, y: 0 }} 
-          transition={{ duration: 1, ease: "easeOut" }}>
+    <section className="py-12 px-4 sm:px-6 md:px-8 lg:px-12 bg-amber-400 text-white">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Left: Text and Timer */}
         {/* Right: Image */}
@@ -48,6 +45,6 @@ export default function SpecialOfferBanner() {
         </div>
 
       </div>
-    </motion.section>
+    </section>
   )
 }

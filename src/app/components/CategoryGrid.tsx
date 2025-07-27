@@ -1,5 +1,4 @@
 "use client";
-import { motion } from 'framer-motion';
 import Link from 'next/link';
 import React from 'react';
 
@@ -48,9 +47,7 @@ const categories: Category[] = [
 
 const CategoryGrid: React.FC = () => {
   return (
-    <motion.section className="py-16 bg-gray-50" initial={{ opacity: 0, x: -100 }} 
-          animate={{ opacity: 1, x: 0 }} 
-          transition={{ duration: 1, ease: "easeOut" }}>
+    <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Shop by Category</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -74,7 +71,7 @@ const CategoryGrid: React.FC = () => {
           ))}
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

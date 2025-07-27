@@ -10,7 +10,6 @@ import { GoStarFill } from "react-icons/go";
 import { RiStarHalfFill } from "react-icons/ri";
 import { IoIosStarOutline } from "react-icons/io";
 import LoadingSpinner from "./LoadingSpinner";
-import { motion } from "framer-motion";
 
 export type Product = {
   _id: number;
@@ -140,9 +139,7 @@ const Products = () => {
   }
 
   return (
-    <motion.section className="py-16" initial={{ opacity: 0, x: -100 }} 
-          animate={{ opacity: 1, x: 0 }} 
-          transition={{ duration: 1, ease: "easeOut" }}>
+    <section className="py-16">
       <div className="container mx-auto px-4">
         <h1 className="text-3xl text-gray-900 font-extrabold mb-10 text-center md:text-left">
           Curated Collection ({filteredProducts.length})
@@ -256,7 +253,7 @@ const Products = () => {
           ))}
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

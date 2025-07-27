@@ -6,7 +6,6 @@ import { useRouter } from "next/navigation";
 import { IoBagHandleOutline } from "react-icons/io5";
 import { LuUserRound } from "react-icons/lu";
 import { LiaOpencart } from "react-icons/lia";
-import { motion } from 'framer-motion';
 import Link from "next/link";
 
 const Header: React.FC = () => {
@@ -24,9 +23,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <motion.header className="sticky top-0 z-50 bg-white shadow-sm" initial={{ opacity: 0, y: -100 }} 
-          animate={{ opacity: 1, y: 0 }} 
-          transition={{ duration: 1, ease: "easeOut" }}>
+    <header className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="font-['Pacifico'] text-2xl text-primary">
@@ -178,7 +175,7 @@ const Header: React.FC = () => {
         </div>
       </div>
       {/* )} */}
-    </motion.header>
+    </header>
   );
 };
 

@@ -1,5 +1,4 @@
 "use client";
-import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
 import { LiaOpencart } from "react-icons/lia";
@@ -14,9 +13,7 @@ import {
 
 export default function Footer() {
   return (
-    <motion.footer className="bg-white border-t border-gray-100 pt-12 pb-6" initial={{ opacity: 0, y: -100 }} 
-          animate={{ opacity: 1, y: 0 }} 
-          transition={{ duration: 1, ease: "easeOut" }}>
+    <footer className="bg-white border-t border-gray-100 pt-12 pb-6">
       <div className="max-w-7xl mx-auto px-4">
         {/* Top section */}
         <div className="flex flex-col md:flex-row justify-between gap-8">
@@ -102,6 +99,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </motion.footer>
+    </footer>
   );
 }

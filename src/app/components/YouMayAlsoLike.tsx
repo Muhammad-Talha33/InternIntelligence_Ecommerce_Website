@@ -8,7 +8,6 @@ import Swal from "sweetalert2";
 import { GoStarFill } from "react-icons/go";
 import { IoIosStarOutline } from "react-icons/io";
 import { RiStarHalfFill } from "react-icons/ri";
-import { motion } from "framer-motion";
 
 type Product = {
   _id: number;
@@ -86,9 +85,7 @@ const YouMayAlsoLike = () => {
   
 
   return (
-    <motion.section className="py-16 border-t-2 border-gray-200 mt-16" initial={{ opacity: 0, x: -100 }} 
-          animate={{ opacity: 1, x: 0 }} 
-          transition={{ duration: 1, ease: "easeOut" }}>
+    <section className="py-16 border-t-2 border-gray-200 mt-16">
       <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-left -mt-6">You may also like</h2>
         <div className="flex justify-between items-center mb-12">
@@ -157,7 +154,7 @@ const YouMayAlsoLike = () => {
           ))}
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

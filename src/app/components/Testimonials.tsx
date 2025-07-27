@@ -1,12 +1,9 @@
 "use client";
-import { motion } from 'framer-motion'
 import React from 'react'
 
 export default function Testimonials() {
   return (
-    <motion.section className="py-16 bg-gray-50" initial={{ opacity: 0, x: -100 }} 
-          animate={{ opacity: 1, x: 0 }} 
-          transition={{ duration: 1, ease: "easeOut" }}>
+    <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">
           What Our Customers Say
@@ -95,7 +92,7 @@ export default function Testimonials() {
           </div>
         </div>
       </div>
-    </motion.section>
+    </section>
 
   )
 }

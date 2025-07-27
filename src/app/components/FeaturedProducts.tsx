@@ -8,7 +8,7 @@ import Swal from "sweetalert2";
 import { GoStarFill } from "react-icons/go";
 import { IoIosStarOutline } from "react-icons/io";
 import { RiStarHalfFill } from "react-icons/ri";
-import { motion } from "framer-motion";
+
 
 type Product = {
   _id: number;
@@ -59,9 +59,7 @@ const FeaturedProducts = () => {
   
 
   return (
-    <motion.section className="py-16" initial={{ opacity: 0, y: -100 }} 
-          animate={{ opacity: 1, y: 0 }} 
-          transition={{ duration: 1, ease: "easeOut" }}>
+    <section className="py-16">
       <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center">Featured Products</h2>
         <div className="flex justify-between items-center mb-12">
@@ -139,7 +137,7 @@ const FeaturedProducts = () => {
           </Link>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

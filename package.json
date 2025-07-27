@@ -16,7 +16,6 @@
     "@sanity/vision": "^3.70.0",
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
-    "framer-motion": "^12.23.9",
     "next": "14.2.15",
     "next-sanity": "^9.8.38",
     "react": "^18",
